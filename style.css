@@ -14,9 +14,9 @@ h6 {
 ul li a {
   font-size: 20px;
 }
-.menu {
+.menu h5 {
   background-color: rgb(84, 143, 8);
-  padding: 7px 3px;
+  padding: 10px 10px;
 }
 .menu h5 {
   color: #fff;
