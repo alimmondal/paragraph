@@ -5,12 +5,24 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   padding: 2px 10%;
 }
 ul li a {
   font-size: 20px;
 }
+.menu {
+  background-color: rgb(84, 143, 8);
+  padding: 7px 3px;
+}
+.menu h5 {
+  color: #fff;
+  font-weight: bold;
+}
+
 p {
   display: block;
   font-size: 17px;
@@ -19,8 +31,12 @@ p {
 .headers {
   text-align: center;
   display: flex;
-  gap: 90%;
+  gap: 80%;
   padding: 2px 10%;
+}
+.headerImage img {
+  margin-right: 10%;
+  height: 140px;
 }
 
 @media screen and (max-width: 480px) {
@@ -30,9 +46,12 @@ p {
   }
   .headers {
     display: flex;
-    gap: 20%;
-    padding: 10px;
-    padding: 1px 2%;
+    gap: 10%;
+    padding: 3px 2%;
+  }
+  .headerImage img {
+    /* margin-right: 10%; */
+    height: 110px;
   }
   p {
     font-size: 15px;
@@ -40,7 +59,10 @@ p {
   }
   h1,
   h2,
-  h3 {
+  h3,
+  h4,
+  h5,
+  h6 {
     padding: 2px 2%;
   }
 }
