@@ -30,8 +30,8 @@ p {
 }
 .headers {
   display: flex;
-  gap: 90%;
-  justify-content: start;
+  gap: 60%;
+  justify-content: space-evenly;
   align-items: center;
   /* text-align: center; */
   /* padding: 2px 10%; */
@@ -48,7 +48,8 @@ p {
   }
   .headers {
     display: flex;
-    gap: 30%;
+    gap: 15%;
+    justify-content: space-evenly;
     /* padding: 3px 2%; */
   }
   .headerImage img {
