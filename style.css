@@ -48,13 +48,13 @@ p {
   }
   .headers {
     display: flex;
-    gap: 15%;
+    gap: 10%;
     justify-content: space-evenly;
     /* padding: 3px 2%; */
   }
   .headerImage img {
     /* margin-right: 10%; */
-    height: 125px;
+    /* height: 125px; */
   }
   p {
     font-size: 15px;
