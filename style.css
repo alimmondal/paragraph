@@ -24,6 +24,21 @@ ul li a {
   font-weight: bold;
 }
 
+.menuItems {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.items {
+  background-color: rgb(6, 207, 207);
+  padding: 10px 30px;
+}
+.items a {
+  color: #fff;
+}
+
 p {
   display: block;
   font-size: 17px;
