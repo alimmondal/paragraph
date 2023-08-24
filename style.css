@@ -18,6 +18,8 @@ ul li a {
 .menu {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
 }
 .menu h5 {
   background-color: rgb(84, 143, 8);
@@ -31,13 +33,17 @@ ul li a {
 .menuItems {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 20px;
+  padding: 5%;
+  max-width: content-wid;
 }
 .items {
   background-color: rgb(6, 207, 207);
   padding: 10px 30px;
+  max-width: 300px;
+  max-height: max-content;
 }
 .items a {
   color: #fff;
@@ -60,6 +66,12 @@ p {
 .headerImage img {
   margin-right: 10%;
   height: 140px;
+}
+
+.dImg {
+  overflow: hidden;
+  max-width: 90%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 480px) {
