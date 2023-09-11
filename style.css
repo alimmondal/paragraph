@@ -20,10 +20,23 @@ ul li a {
   top: 0;
   left: 0;
   right: 0;
+  /* display: flex; */
 }
-.menu h5 {
-  background-color: rgb(84, 143, 8);
+.menu ul {
+  background-color: #40b392;
   padding: 10px 10px;
+  display: flex;
+  gap: 10px;
+  /* justify-content: center;
+  align-content: center; */
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
 }
 .menu h5 {
   color: #fff;
@@ -40,10 +53,10 @@ ul li a {
   max-width: content-wid;
 }
 .items {
-  background-color: rgb(6, 207, 207);
-  padding: 10px 30px;
-  max-width: 300px;
-  max-height: max-content;
+  background-color: #40b392;
+  padding: 5px 20px;
+  /* max-width: 300px; */
+  /* max-height: max-content; */
 }
 .items a {
   color: #fff;
