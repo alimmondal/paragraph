@@ -21,20 +21,34 @@ h6 {
 ul li a {
   font-size: 20px;
 }
+
+.headers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+.mTitle {
+  font-family: monospace;
+  font-style: italic;
+}
+
 .menu {
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  /* display: flex; */
 }
 .menu ul {
   background-color: #40b392;
   padding: 10px 10px;
   display: flex;
   gap: 10px;
-  /* justify-content: center;
-  align-content: center; */
 }
 .menu ul li {
   list-style: none;
@@ -44,10 +58,6 @@ ul li a {
   font-weight: bold;
   text-decoration: none;
 }
-.menu h5 {
-  color: #fff;
-  font-weight: bold;
-}
 
 .menuItems {
   display: flex;
@@ -56,13 +66,11 @@ ul li a {
   align-items: center;
   gap: 20px;
   padding: 5%;
-  /* max-width: content-wid; */
 }
 .items {
   background-color: #40b392;
-  padding: 5px 20px;
-  /* max-width: 300px; */
-  /* max-height: max-content; */
+  padding: 3px 20px;
+  border-radius: 3px;
 }
 .items a {
   color: #fff;
@@ -74,24 +82,7 @@ p {
   padding: 2px 10%;
   text-align: start;
 }
-.headers {
-  display: flex;
-  gap: 60%;
-  justify-content: space-evenly;
-  align-items: center;
-  /* text-align: center; */
-  /* padding: 2px 10%; */
-}
-.headerImage img {
-  margin-right: 10%;
-  height: 140px;
-}
 
-.dImg {
-  overflow: hidden;
-  max-width: 90%;
-  object-fit: cover;
-}
 .footerSection {
   background-color: #40b392;
 }
@@ -104,22 +95,15 @@ p {
 .footer ul li a {
   color: #fff;
 }
-.footerItems {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
-}
 
 @media screen and (max-width: 480px) {
-  ul li a {
-    font-size: 17px;
-    text-align: start;
-  }
   .headers {
-    display: flex;
-    gap: 10%;
-    justify-content: space-evenly;
+    margin-right: 10px;
+    gap: 0%;
+    overflow: hidden;
+  }
+  .address {
+    display: none;
   }
   p {
     font-size: 15px;
@@ -133,11 +117,6 @@ p {
   h5,
   h6 {
     padding: 2px 2%;
-  }
-  .footer {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
   }
   .footerMenuItems {
     display: none;
