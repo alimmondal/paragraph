@@ -5,6 +5,10 @@ body {
 a {
   text-decoration: none;
 }
+
+a:hover {
+  color: orangered;
+}
 li {
   list-style: none;
 }
@@ -57,6 +61,9 @@ ul li a {
   font-weight: bold;
   text-decoration: none;
 }
+.menu ul li a:hover {
+  color: orangered;
+}
 
 .menuItems {
   display: flex;
@@ -71,8 +78,16 @@ ul li a {
   padding: 3px 20px;
   border-radius: 3px;
 }
+.items:hover {
+  background-color: orangered;
+  color: #000;
+}
+
 .items a {
   color: #fff;
+}
+.items a:hover {
+  color: #000;
 }
 
 p {
