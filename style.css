@@ -70,12 +70,12 @@ ul li a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  gap: 5px;
+  gap: 10px;
   /* padding: 20% 30%; */
 }
 .menuItems ul {
   background-color: #d3694c;
-  padding: 2% 5%;
+  padding: 1% 3%;
   border-radius: 3px;
 }
 .menuItems ul:hover {
@@ -131,6 +131,9 @@ p {
   }
   .menuItems {
     gap: 1px;
+  }
+  .menuItems ul {
+    padding: 2% 5%;
   }
   p {
     font-size: 15px;
