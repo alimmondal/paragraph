@@ -48,7 +48,7 @@ ul li a {
   right: 0;
 }
 .menu ul {
-  background-color: #40b392;
+  background-color: #d3694c;
   padding: 10px 10px;
   display: flex;
   gap: 10px;
@@ -62,7 +62,7 @@ ul li a {
   text-decoration: none;
 }
 .menu ul li a:hover {
-  color: orangered;
+  color: #000;
 }
 
 .menuItems {
@@ -74,7 +74,7 @@ ul li a {
   /* padding: 20% 30%; */
 }
 .menuItems ul {
-  background-color: #40b392;
+  background-color: #d3694c;
   padding: 2% 5%;
   border-radius: 3px;
 }
@@ -103,7 +103,7 @@ p {
 }
 
 .footerSection {
-  background-color: #40b392;
+  background-color: #d3694c;
 }
 .footer {
   /* padding: 10px 50px; */
@@ -116,7 +116,7 @@ p {
   /* font-size: 8px; */
 }
 .footer ul li a:hover {
-  color: red;
+  color: #000;
   /* font-size: 8px; */
 }
 
