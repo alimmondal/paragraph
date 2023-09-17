@@ -6,9 +6,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: orangered;
-}
+} */
 li {
   list-style: none;
 }
